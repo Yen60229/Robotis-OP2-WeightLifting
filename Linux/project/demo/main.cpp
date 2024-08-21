@@ -67,7 +67,7 @@ void sighandler(int sig)
 
 int main(void)
 {
-	int part = 2;
+	int part = 1;
 
 	//////////BALL FOLLOWING///////////
 	int n = 0;
@@ -77,8 +77,8 @@ int main(void)
 
 	/////////WEIGHTLIFTING////////////
 	int counter_1 = 0;
-    int counter_2 = 0;
-    int test = 0;
+    	int counter_2 = 0;
+    	int test = 0;
 	int firm_ver = 0;
 	
 	//////////////////////////////Ball Following Initialize Start///////////////////////////////////
@@ -88,7 +88,7 @@ int main(void)
 
 	minIni* ini = new minIni(INI_FILE_PATH);
 	minIni* ini_2 = new minIni(INI_FILE_PATH2);
-    minIni* ini_3 = new minIni(INI_FILE_PATH3);
+    	minIni* ini_3 = new minIni(INI_FILE_PATH3);
 
 
 	LinuxCamera::GetInstance()->Initialize(0);
@@ -113,7 +113,7 @@ int main(void)
 	}
 	MotionManager::GetInstance()->LoadINISettings(ini);
 	MotionManager::GetInstance()->LoadINISettings(ini_2);
-    MotionManager::GetInstance()->LoadINISettings(ini_3);
+    	MotionManager::GetInstance()->LoadINISettings(ini_3);
 	Walking::GetInstance()->LoadINISettings(ini);
 
 	MotionManager::GetInstance()->AddModule((MotionModule*)Head::GetInstance());
