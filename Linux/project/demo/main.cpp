@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: 2011. 1. 4.
- *      Author: robotis
- */
 #include <iostream>
 #include <time.h>
 #include <stdio.h>
@@ -40,8 +34,9 @@ using namespace std;
 #define U2D_DEV_NAME0        "/dev/ttyUSB0"
 #define U2D_DEV_NAME1       "/dev/ttyUSB1"
 
-#define STEP_TIME 10 // 60:10 70:13
-#define STEP_TIME_2 30 //18
+// Parameters for walking behavior
+#define STEP_TIME 10   
+#define STEP_TIME_2 30
 
 #define turnX 9
 #define turnY 0
@@ -140,8 +135,6 @@ int main(void)
 		param[n++] = CM730::GetLowByte(wDistance);
 		param[n++] = CM730::GetHighByte(wDistance);
 	}
-
-    //cm730.SyncWrite(MX28::P_GOAL_POSITION_L, 5, JointData::NUMBER_OF_JOINTS - 1, param);
 	//////////////////////////////Ball Following Initialize End////////////////////////////////////
 
 	//////////////////////////////WeightLifting Initialize Start///////////////////////////////////		
@@ -155,10 +148,6 @@ int main(void)
 	//MotionManager::GetInstance()->AddModule((MotionModule*)Walking::GetInstance());
 	MotionManager::GetInstance()->AddModule((MotionModule*)Walking2::GetInstance());
 	MotionManager::GetInstance()->AddModule((MotionModule*)Walking3::GetInstance());
-	
-
-	/*LinuxMotionTimer *motion_timer = new LinuxMotionTimer(MotionManager::GetInstance());
-	motion_timer->Start();*/
 
 	if(cm730.ReadByte(JointData::ID_HEAD_PAN, MX28::P_VERSION, &firm_ver, 0)  != CM730::SUCCESS)
 	{
@@ -198,6 +187,7 @@ int main(void)
 
 	Action::GetInstance()->Start(16);
 	while(Action::GetInstance()->IsRunning()) usleep(8*1000);
+	
 	///////////////////////WeightLifting Initialize End//////////////////////////////////////////////
 
     while(1)
@@ -354,7 +344,7 @@ int main(void)
 	    	                while(Action::GetInstance()->IsRunning()) usleep(8*1000);
 	                        //Walking3::GetInstance()->m_Joint.SetEnableBodyWithoutHead(true, true);
 	                        Walking3::GetInstance()->m_Joint.SetEnableLowerBody(true, true);
-							Walking3::GetInstance()->A_MOVE_AMPLITUDE =  0;//2
+				Walking3::GetInstance()->A_MOVE_AMPLITUDE =  0;//2
 	                        Walking3::GetInstance()->X_MOVE_AMPLITUDE = 15;//15
 	                        Walking3::GetInstance()->Y_MOVE_AMPLITUDE = 0;//-2
 	                        //Walking3::GetInstance()->Z_MOVE_AMPLITUDE = 20;
