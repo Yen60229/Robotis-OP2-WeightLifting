@@ -22,7 +22,9 @@ namespace Robot
 		double Y;
 
 		Point2D();
+		//Point2D主要用於表示影像中的點，如顏色檢測到的物體的中心點
 		Point2D(double x, double y);
+		//初始化X和Y座標的建構函式
 		Point2D(const Point2D &point);		
 		~Point2D();
 
@@ -60,6 +62,7 @@ namespace Robot
 		~Point3D();
 
 		static double Distance(Point3D &pt1, Point3D &pt2);
+		//態函式，用於計算兩個點之間的距離
 
 		Point3D & operator = (Point3D &point);
 		Point3D & operator += (Point3D &point);
