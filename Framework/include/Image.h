@@ -34,9 +34,12 @@ namespace Robot
 		virtual ~Image();
 
 		Image& operator = (Image &img);
+		//賦值操作符，用於影像的拷貝
 	};
 
 	class FrameBuffer
+	//包含了不同色彩空間下的影像，允許同時處理YUV、RGB、HSV等格式的影像，
+	//這對於顏色檢測應用非常有用​(Image)。
 	{
 	private:
 
