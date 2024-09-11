@@ -64,7 +64,7 @@ int main(void)
 {
 	int part = 1;
 
-	//////////BALL FOLLOWING///////////
+	//////////FOLLOWING///////////
 	int n = 0;
 	int param[JointData::NUMBER_OF_JOINTS * 5];
 	int wGoalPosition, wStartPosition, wDistance;
@@ -76,7 +76,7 @@ int main(void)
     	int test = 0;
 	int firm_ver = 0;
 	
-	//////////////////////////////Ball Following Initialize Start///////////////////////////////////
+	//////////////////////////////Following Initialize Start///////////////////////////////////
 	change_current_dir();
 
 	Image* rgb_ball = new Image(Camera::WIDTH, Camera::HEIGHT, Image::RGB_PIXEL_SIZE);
@@ -135,7 +135,7 @@ int main(void)
 		param[n++] = CM730::GetLowByte(wDistance);
 		param[n++] = CM730::GetHighByte(wDistance);
 	}
-	//////////////////////////////Ball Following Initialize End////////////////////////////////////
+	//////////////////////////////Following Initialize End////////////////////////////////////
 
 	//////////////////////////////WeightLifting Initialize Start///////////////////////////////////		
 
@@ -205,6 +205,7 @@ int main(void)
 	        switch(part)
 	        {
 	            case 1:
+	            //part = 1  walk to catch the barbell
 
 					printf( "\n===== Ball following  for DARwIn OP2 =====\n\n");
 					Head::GetInstance()->m_Joint.SetEnableHeadOnly(true, true);
@@ -246,6 +247,7 @@ int main(void)
 	            break;
 
 	            case 2:
+	            ////part = 2 catch the barbell and walk
 	                if(test == 0)
 	                {
 	                    if(Action::GetInstance()->IsRunning() == 0)
@@ -262,8 +264,8 @@ int main(void)
 	                        
 	                        //Action::GetInstance()->m_Joint.SetAngle(22, 15);//left close
 	                        //Action::GetInstance()->m_Joint.SetAngle(21,-15);//right close
-	      					while(Action::GetInstance()->IsRunning()) usleep(8*1000);
-	      					sleep(1);
+	      			while(Action::GetInstance()->IsRunning()) usleep(8*1000);
+	      			sleep(1);
 	                        Action::GetInstance()->Start(96);
 	                        while(Action::GetInstance()->IsRunning()) usleep(8*1000);
 	                        sleep(1);
