@@ -1,5 +1,5 @@
 <p align=center>
-   <font size=36>
+   <font size=80>
       Research and Development of Bipedal Intelligent Robots
    </font>
 </p>
