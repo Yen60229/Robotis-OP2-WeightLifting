@@ -46,7 +46,7 @@
 Barbell Tracking & Following with Walking
 <p align="center">
     <a href="https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54">
-        <img src="https://github.com/user-attachments/assets/77113e39-8ac6-4923-879e-12c697247bc8"/>
+        <img src="https://github.com/user-attachments/assets/77113e39-8ac6-4923-879e-12c697247bc8" length= "50px" width="50px">
     </a>
 </p>
 
