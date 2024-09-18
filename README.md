@@ -17,7 +17,7 @@ Global Definitions
 Several global parameters are defined using #define statements. Some examples include:
 - MOTION_FILE_PATH: Defines the path for the motion files used by the robot.
 - STEP_TIME and STEP_TIME_2: Control the time intervals for walking behavior and movement amplitude.
-- 
+
 Major Functions
 The program consists of two major functional areas:
 1. Tracking: The robot uses the camera to capture frames and track the position of a barbell using the ColorFinder object. The Tracker and Follower classes coordinate to adjust the robot's head and body movements based on the ball's position.
