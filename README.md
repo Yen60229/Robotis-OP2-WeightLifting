@@ -1,7 +1,5 @@
 <p align=center>
-<font size=26>
-OP2 Robotis Program Analysis
-</font>
+<font size=26>OP2 Robotis Program Analysis</font>
 </p>
 <div align = center>
 <img src="https://github.com/user-attachments/assets/4b712bbc-2507-44ba-8df7-70d613e6f5f8" length= "350px" width="350px">
