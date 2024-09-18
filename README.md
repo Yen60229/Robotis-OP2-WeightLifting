@@ -30,13 +30,13 @@ OP2 Robotis Program Analysis
    The program consists of two major functional areas:
    
       (1) Tracking: The robot uses the camera to capture frames and track the position of a barbell using the ColorFinder object.
-                    The Tracker and Follower classes coordinate to adjust the robot's head and body movements based on the ball's position.
+                    The Tracker and Follower classes coordinate to adjust the robot's head and body movements based on the barbell's position.
    
       (2) Simulated Weightlifting: The program uses three walking control modules (Walking, Walking2, Walking3) to simulate weightlifting. The predefined motions are executed using Action::GetInstance()->Start(), such as opening hands (Action::Start(15)) and squatting to lift (Action::Start(93)).
 
 7. Program Flow：
 
-   In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: ball tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
+   In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: barbell tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
 
 ![舉重 專題報告 (1)](https://github.com/user-attachments/assets/bdc47880-0f7f-4ac7-9574-d5c377d56379)
 
