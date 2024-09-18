@@ -11,7 +11,7 @@
 
 2. Rules of the competition:
 <div align=center>
-<img src="https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb" length= "350px" width="350px">
+<img src="https://github.com/user-attachments/assets/203ad0d6-aaf5-4c95-9a6d-1f6767c6bb87" length= "350px" width="350px">
 </div>
    (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
 
