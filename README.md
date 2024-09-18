@@ -45,14 +45,15 @@
 Barbell Tracking & Following with Walking
 
 https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54
-
+<p align=center>
 Walking2 Action Pose
-
+</p>
 <div align=center>
 <img src="https://github.com/user-attachments/assets/9f6d708a-c9f7-44c0-acc0-43a8aba9562e" length= "900px" width="900px">
 </div>
-
+<p align=center>
 Walking3 Action Pose
+</p>
 <div align=center>
 <img src="https://github.com/user-attachments/assets/38860087-be11-4ad8-af7f-ebdfc6cde83f" length= "900px" width="900px">
 </div>
