@@ -42,8 +42,20 @@
 
    In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: barbell tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
 
-Barbell Tracking and Following
+Barbell Tracking & Following with Walking
+
 https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54
+
+Walking2 Action Pose
+
+<div align=center>
+![final_combined_image1 - 複製](https://github.com/user-attachments/assets/9f6d708a-c9f7-44c0-acc0-43a8aba9562e)
+</div>
+
+Walking3 Action Pose
+<div align=center>
+![final_combined_image2_corrected](https://github.com/user-attachments/assets/38860087-be11-4ad8-af7f-ebdfc6cde83f)
+</div>
 
 <div align=center>
 <img src="https://github.com/user-attachments/assets/92a5c83b-0543-4de7-839d-5f3ba02187f8" length= "900px" width="900px">
