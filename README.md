@@ -8,7 +8,7 @@ OP2 Robotis Program Analysis
    This document provides an analysis of the OP2 Robotis robot's program code. The program controls two primary actions: barbell tracking and simulated weightlifting. Below is a breakdown of key components of the program.
 
 2. Rules of the competition:
-<img src="https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb" length= "200px" width="200px">
+<img src="https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb" length= "230px" width="230px">
 
 
    (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
