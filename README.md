@@ -1,8 +1,6 @@
 OP2 Robotis Program Analysis
 
-![234](https://github.com/user-attachments/assets/a684d473-66bb-4069-8275-af4a729e0c6b)
-![image](https://github.com/user-attachments/assets/fa12e60f-0513-46f2-a7f7-836604bad300)
-
+<img src="![image](https://github.com/user-attachments/assets/fa12e60f-0513-46f2-a7f7-836604bad300)" width="30%">
 
 1. Introduction:
    
@@ -36,7 +34,7 @@ OP2 Robotis Program Analysis
    
       (2) Simulated Weightlifting: The program uses three walking control modules (Walking, Walking2, Walking3) to simulate weightlifting. The predefined motions are executed using Action::GetInstance()->Start(), such as opening hands (Action::Start(15)) and squatting to lift (Action::Start(93)).
 
-7. Program Flow：
+6. Program Flow：
 
    In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: barbell tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
 
