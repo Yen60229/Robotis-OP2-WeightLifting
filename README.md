@@ -49,12 +49,12 @@ https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54
 Walking2 Action Pose
 
 <div align=center>
-![final_combined_image1 - 複製](https://github.com/user-attachments/assets/9f6d708a-c9f7-44c0-acc0-43a8aba9562e)
+<img src="https://github.com/user-attachments/assets/9f6d708a-c9f7-44c0-acc0-43a8aba9562e" length= "900px" width="900px">
 </div>
 
 Walking3 Action Pose
 <div align=center>
-![final_combined_image2_corrected](https://github.com/user-attachments/assets/38860087-be11-4ad8-af7f-ebdfc6cde83f)
+<img src="https://github.com/user-attachments/assets/38860087-be11-4ad8-af7f-ebdfc6cde83f" length= "900px" width="900px">
 </div>
 
 <div align=center>
