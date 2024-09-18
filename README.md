@@ -45,8 +45,11 @@
 
 Barbell Tracking & Following with Walking Video
 
- [![GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNidGNnYTF4NWMxbjh5Mmw2c2ZlcTFrdjI0aHR4MGUwOWw1aWxjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8927bavbhroiW5fhwQ/giphy.gif)](https://github.com/user-attachments/assets/0622e091-a46a-4053-bc93-53fb57a6b1b0)
-
+<p align="center">
+    <a href="(https://github.com/user-attachments/assets/0622e091-a46a-4053-bc93-53fb57a6b1b0)">
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNidGNnYTF4NWMxbjh5Mmw2c2ZlcTFrdjI0aHR4MGUwOWw1aWxjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8927bavbhroiW5fhwQ/giphy.gif"/>
+    </a>
+</p>
 
 
 <p align=center>
