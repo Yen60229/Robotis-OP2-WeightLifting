@@ -13,8 +13,9 @@ Research and Development of Bipedal Intelligent Robot
 <div align=center>
 <img src="https://github.com/user-attachments/assets/203ad0d6-aaf5-4c95-9a6d-1f6767c6bb87" length= "350px" width="350px">
 </div>
-            (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
-            (2) After picking up the barbell, walk to the Lift Line, lift the barbell to head height, and proceed to the Finish Line to complete.
+
+      (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
+      (2) After picking up the barbell, walk to the Lift Line, lift the barbell to head height, and proceed to the Finish Line to complete.
 
 3. Libraries and File Imports:
    
