@@ -28,6 +28,7 @@ OP2 Robotis Program Analysis
 5. Major Functions：
    
    The program consists of two major functional areas:
+   
       (1) Tracking: The robot uses the camera to capture frames and track the position of a barbell using the ColorFinder object.
                     The Tracker and Follower classes coordinate to adjust the robot's head and body movements based on the ball's position.
    
