@@ -1,8 +1,10 @@
 <p align=center>
-# OP2 Robotis Program Analysis
+<font size=16>
+OP2 Robotis Program Analysis
+</font>
 </p>
-<div align = right>
-<img src="https://github.com/user-attachments/assets/78ab88ea-2c43-4635-84fd-b0963558d483" length= "200px" width="200px">
+<div align = center>
+<img src="https://github.com/user-attachments/assets/4b712bbc-2507-44ba-8df7-70d613e6f5f8" length= "200px" width="200px">
 </div>
 
 1. Introduction:
