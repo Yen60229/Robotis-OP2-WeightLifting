@@ -1,7 +1,5 @@
 <p align=center>
-   <font size=80>
-      Research and Development of Bipedal Intelligent Robots
-   </font>
+   <font size=80>Research and Development of Bipedal Intelligent Robot </font>
 </p>
 <div align = center>
 <img src="https://github.com/user-attachments/assets/4b712bbc-2507-44ba-8df7-70d613e6f5f8" length= "350px" width="350px">
