@@ -1,6 +1,6 @@
 OP2 Robotis Program Analysis
 
-<img src="https://github.com/user-attachments/assets/78ab88ea-2c43-4635-84fd-b0963558d483" length= "500px" width="500px">
+<img src="https://github.com/user-attachments/assets/78ab88ea-2c43-4635-84fd-b0963558d483" length= "250px" width="250px">
 
 
 1. Introduction:
