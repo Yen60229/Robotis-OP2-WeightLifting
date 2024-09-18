@@ -1,6 +1,8 @@
 OP2 Robotis Program Analysis
 
 ![234](https://github.com/user-attachments/assets/a684d473-66bb-4069-8275-af4a729e0c6b)
+![image](https://github.com/user-attachments/assets/fa12e60f-0513-46f2-a7f7-836604bad300)
+
 
 1. Introduction:
    
