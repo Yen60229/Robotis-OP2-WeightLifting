@@ -47,7 +47,7 @@ Barbell Tracking & Following with Walking Video
 
 <p align="center">
     <a href="https://youtube.com/shorts/cfD9wAqq4AE?feature=share">
-        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNidGNnYTF4NWMxbjh5Mmw2c2ZlcTFrdjI0aHR4MGUwOWw1aWxjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8927bavbhroiW5fhwQ/giphy.gif" length= "150px" width="150px"/>
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNidGNnYTF4NWMxbjh5Mmw2c2ZlcTFrdjI0aHR4MGUwOWw1aWxjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8927bavbhroiW5fhwQ/giphy.gif" length= "200px" width="200px"/>
     </a>
 </p>
 
