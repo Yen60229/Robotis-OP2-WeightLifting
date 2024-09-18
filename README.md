@@ -6,7 +6,7 @@ OP2 Robotis Program Analysis
    
 This document provides an analysis of the OP2 Robotis robot's program code. The program controls two primary actions: barbell tracking and simulated weightlifting. Below is a breakdown of key components of the program.
 
-3. Rules of the competition:
+2. Rules of the competition:
 ![123](https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb)
 
 (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
@@ -16,7 +16,7 @@ This document provides an analysis of the OP2 Robotis robot's program code. The 
    
 The code begins by including necessary libraries, such as standard C++ libraries like <iostream> and <time.h>, as well as Robotis-provided libraries like LinuxDARwIn.h, Walking.h, Camera.h, and others. These libraries enable the management of robot movement, camera control, and data handling.
 
-5. Global Definitions:
+4. Global Definitions:
    
 Several global parameters are defined using #define statements. Some examples include:
 - MOTION_FILE_PATH: Defines the path for the motion files used by the robot.
