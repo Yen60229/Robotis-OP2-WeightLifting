@@ -19,13 +19,16 @@ The code begins by including necessary libraries, such as standard C++ libraries
 4. Global Definitions:
    
 Several global parameters are defined using #define statements. Some examples include:
+
 - MOTION_FILE_PATH: Defines the path for the motion files used by the robot.
+
 - STEP_TIME and STEP_TIME_2: Control the time intervals for walking behavior and movement amplitude.
 
 5. Major Functions：
    
 The program consists of two major functional areas:
 (1) Tracking: The robot uses the camera to capture frames and track the position of a barbell using the ColorFinder object. The Tracker and Follower classes coordinate to adjust the robot's head and body movements based on the ball's position.
+
 (2) Simulated Weightlifting: The program uses three walking control modules (Walking, Walking2, Walking3) to simulate weightlifting. The predefined motions are executed using Action::GetInstance()->Start(), such as opening hands (Action::Start(15)) and squatting to lift (Action::Start(93)).
 
 6. Program Flow：
