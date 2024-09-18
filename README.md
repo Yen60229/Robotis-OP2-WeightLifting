@@ -40,7 +40,9 @@ OP2 Robotis Program Analysis
 
    In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: barbell tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
 
-![舉重 專題報告 (1)](https://github.com/user-attachments/assets/bdc47880-0f7f-4ac7-9574-d5c377d56379)
+<img src="https://github.com/user-attachments/assets/bdc47880-0f7f-4ac7-9574-d5c377d56379" length= "250px" width="250px">
 
-![img1](https://github.com/user-attachments/assets/92a5c83b-0543-4de7-839d-5f3ba02187f8)
+
+<img src="https://github.com/user-attachments/assets/92a5c83b-0543-4de7-839d-5f3ba02187f8" length= "300px" width="300px">
+
 
