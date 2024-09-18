@@ -10,6 +10,7 @@ This document provides an analysis of the OP2 Robotis robot's program code. The 
 ![123](https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb)
 
 (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
+
 (2) After picking up the barbell, walk to the Lift Line, lift the barbell to head height, and proceed to the Finish Line to complete.
 
 3. Libraries and File Imports:
