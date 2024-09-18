@@ -1,4 +1,4 @@
-<p align=center>
+<p align=right>
 # OP2 Robotis Program Analysis
 </p>
 <img src="https://github.com/user-attachments/assets/78ab88ea-2c43-4635-84fd-b0963558d483" length= "200px" width="200px">
