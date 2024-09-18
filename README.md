@@ -45,7 +45,9 @@
 
 Barbell Tracking & Following with Walking Video
 
- [![GIF](https://github.com/user-attachments/assets/d44c1cb1-d2ae-44fa-b492-dcb49428449e)](https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54)
+ [![GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNidGNnYTF4NWMxbjh5Mmw2c2ZlcTFrdjI0aHR4MGUwOWw1aWxjbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8927bavbhroiW5fhwQ/giphy.gif)](https://github.com/user-attachments/assets/0622e091-a46a-4053-bc93-53fb57a6b1b0)
+
+
 
 <p align=center>
 Walking2 Action Pose
