@@ -1,4 +1,4 @@
-<p style="text-align: center; font-size: 80px;">
+<p align=center; font-size: 80px;">
 Research and Development of Bipedal Intelligent Robot
 </p>
 <div align = center>
