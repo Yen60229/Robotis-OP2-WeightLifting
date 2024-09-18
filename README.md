@@ -52,7 +52,7 @@ Barbell Tracking & Following with Walking Video
     </a>
 </p>
 
-[![Demo GIF](https://github.com/user-attachments/assets/d44c1cb1-d2ae-44fa-b492-dcb49428449e)](https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54)
+[![image](https://github.com/user-attachments/assets/d44c1cb1-d2ae-44fa-b492-dcb49428449e)](https://github.com/user-attachments/assets/0d44f172-64af-4477-aa21-42dfd20e0d54)]
 
 
 <p align=center>
