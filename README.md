@@ -1,5 +1,5 @@
 <p align=center>
-OP2 Robotis Program Analysis
+# OP2 Robotis Program Analysis
 </p>
 <img src="https://github.com/user-attachments/assets/78ab88ea-2c43-4635-84fd-b0963558d483" length= "200px" width="200px">
 
@@ -9,18 +9,18 @@ OP2 Robotis Program Analysis
    This document provides an analysis of the OP2 Robotis robot's program code. The program controls two primary actions: barbell tracking and simulated weightlifting. Below is a breakdown of key components of the program.
 
 2. Rules of the competition:
+<div align=center>
 <img src="https://github.com/user-attachments/assets/ffd9a109-cf4f-4db0-920f-df0cef3b0ecb" length= "230px" width="230px">
-
-
+</div>
    (1) Start from the Start Line and proceed to the Pick-up Line to find and pick up the barbell.
 
    (2) After picking up the barbell, walk to the Lift Line, lift the barbell to head height, and proceed to the Finish Line to complete.
 
-4. Libraries and File Imports:
+3. Libraries and File Imports:
    
    The code begins by including necessary libraries, such as standard C++ libraries like <iostream> and <time.h>, as well as Robotis-provided libraries like LinuxDARwIn.h, Walking.h, Camera.h, and others. These libraries enable the management of robot movement, camera control, and data handling.
 
-5. Global Definitions:
+4. Global Definitions:
    
    Several global parameters are defined using #define statements. Some examples include:
 
@@ -28,7 +28,7 @@ OP2 Robotis Program Analysis
 
       - STEP_TIME and STEP_TIME_2: Control the time intervals for walking behavior and movement amplitude.
 
-6. Major Functions：
+5. Major Functions：
    
    The program consists of two major functional areas:
    
@@ -37,7 +37,7 @@ OP2 Robotis Program Analysis
    
       (2) Simulated Weightlifting: The program uses three walking control modules (Walking, Walking2, Walking3) to simulate weightlifting. The predefined motions are executed using Action::GetInstance()->Start(), such as opening hands (Action::Start(15)) and squatting to lift (Action::Start(93)).
 
-7. Program Flow：
+6. Program Flow：
 
    In the main function, the program initializes the robot's camera, walking modules, and motion manager. The robot operates in two modes: barbell tracking and weightlifting. Depending on the current mode and status, the robot switches between these actions.
 
