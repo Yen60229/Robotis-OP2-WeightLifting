@@ -4,7 +4,7 @@ OP2 Robotis Program Analysis
 </font>
 </p>
 <div align = center>
-<img src="https://github.com/user-attachments/assets/4b712bbc-2507-44ba-8df7-70d613e6f5f8" length= "200px" width="200px">
+<img src="https://github.com/user-attachments/assets/4b712bbc-2507-44ba-8df7-70d613e6f5f8" length= "250px" width="250px">
 </div>
 
 1. Introduction:
